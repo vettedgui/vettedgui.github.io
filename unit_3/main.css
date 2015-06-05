@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);@import url(http://fonts.googleapis.com/css?family=Chewy);
+
 h1{
-	color: white; font-family: helvetica; font-size: 30px; text-align: center; text-transform: uppercase;
+	color: white; font-family: 'Francois One', sans-serif; font-size: 55px; text-align: center; text-transform: uppercase;
 }
 
 
@@ -8,18 +10,26 @@ body{
 }
 
 #slogan{
-	font-style: italic;
 	text-align: center;
+	font-family: 'Chewy', cursive;
+	font-size: 40px;
+}
+
+p{
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 26px;
 }
 
 ul{
 	text-align: center;
-    font-family: helvetica;
-list-style-position: inside;}
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 22px; font-weight: bold;
+    list-style-position: inside;
+    margin: 2em;
+    line-height: 2em;
+    color: #00bff3;
+    }
 
-img{
-	padding: 8px;
-}
 #hero{
 	width: 100%; 
 	height: 500px; 
@@ -30,4 +40,5 @@ img{
 }
 a{
 	color: white;
+	font-family: 'Pontano Sans'; font-size: 22px; text-align: center; color: #6a9e30;
 }
