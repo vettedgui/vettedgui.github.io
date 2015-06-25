@@ -1,0 +1,87 @@
+body{
+	color:#bfc8cf;
+	font-size:16px;
+}
+
+header{
+	background:url("kittens_mittens_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	width: 1000px;
+	height:100px;
+	margin: 0 auto;
+	padding:22px 0;
+}
+
+
+	h1{
+	color:#fff;
+	text-align: center;
+	font-size: 3.5em;
+	font-family: 'Nunito', sans-serif;
+/*	margin:22px 0;*/
+/*	background-color:#233541;
+	width: 1000px;
+	margin: 0 auto;*/
+	
+}
+
+img{
+	display:block;
+	margin:auto;
+	width:1000px;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	height:24em;
+}
+
+li{
+	display: block;
+	float:left;
+	width:50%;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	height: 8em;
+}
+
+section{
+	background:#bfc8cf;
+	width: 1000px;
+	color:#fff;
+	margin: 0 auto;
+}
+
+div{
+	font-size: 1em;
+	text-align: center;
+	padding: 2%;
+}
+
+nav{
+	font-size: 1.3em;
+	text-align: center;
+	margin: 1.5em;
+	padding: 0.5em;
+}
+
+footer{
+	font-family: helvetica;
+	text-align: center;
+	font-size: 1em;
+	margin: 1.5em;
+	color: #254c68;
+
+}
+
+#clearfix:after{
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
