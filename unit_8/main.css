@@ -1,0 +1,104 @@
+head {
+	
+}
+
+body{
+	background-color: #65933b;
+	background-size: 70%;
+	font-size: 16px;
+	font-family: 'helvetica';
+	line-height: 1.5;
+	border-image: 2em;
+	border-width: 5em;
+}
+
+header {
+	background: url("header_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	width: 900px;
+	height:220px;
+	margin: 0;
+}
+
+div #header {
+	margin: auto;
+	
+}
+#logo {
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+div {
+	color: #65933b;
+	line-height: 8em;
+	font-size: 1em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav {
+	font-size: 1.3em;
+	text-align: center;
+	outline-color: #65933b;
+	margin: auto;
+	padding: .5em;
+	width: 980px;
+	display: block;
+	float: left;
+}
+
+li {
+	display: block;
+	float:left;
+	width:25%;
+	font-family: 'Chewy', sans-serif;
+	text-align: center;
+	background-color: #014619;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Pontano', sans-serif;
+	text-align: left;
+	font-size: 1em;
+	color: white;
+	display: inline-block;
+}
+
+div #style{
+	text-align: 
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	float: left;
+
+}
+p{
+	width: 900px;
+	text-align: left;
+	color: white;
+}
+
+footer{
+	font-family: 'helvetica';
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	float: none;
+	width: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	width: 70%;
+}
